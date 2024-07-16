@@ -1,0 +1,253 @@
+/* css/style.css */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+}
+.site-header, .site-footer {
+    background-color: #4A5A4F; /* Moss Green */
+    color: #A8C3A0; /* Pale Green */
+    padding: 20px;
+    text-align: center;
+}
+
+.site-header .logo {
+    font-size: 1.5em;
+    font-family: 'Playfair Display', serif;
+}
+
+.site-header .navigation ul {
+    list-style: none;
+    padding: 0;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.site-header .navigation ul li a {
+    color: #A8C3A0;
+    text-decoration: none;
+}
+
+.site-header .navigation ul li a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    flex: 0 1 auto; /* Allow the logo to resize but not grow larger than its content */
+}
+
+.logo-img {
+    width: 100px; /* Adjust the width as needed */
+    height: auto; /* Keeps the aspect ratio */
+
+
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.home-section {
+    background-color: #2B3A2A; /* Dark Forest Green */
+    color: #A8C3A0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 60px); /* Adjust height to account for header */
+    position: relative;
+    z-index: 1;
+}
+
+.h1-wrapper {
+    background-color: white;
+    width: 100vw; /* Full viewport width */
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1; /* Place behind other content */
+    padding: 20px 20px;
+    box-sizing: border-box;
+}
+
+.title {
+    font-size: 3em;
+    margin: 0;
+    z-index: 1; /* Ensure it is above the white background */
+    position: relative;
+}
+
+.centered-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto 0; /* Adjust margin to separate from h1 */
+}
+
+.home-section {
+    background-color: #2B3A2A; /* Dark Forest Green */
+    color: #A8C3A0;
+}
+
+.about-section {
+    background-color: #556B2F; /* Olive Green */
+    color: #A8C3A0;
+}
+
+.services-section {
+    background-color: #white; /* Sage Green */
+    color: #white;
+}
+
+.contact-section {
+    background-color: #A8C3A0; /* Pale Green */
+    color: #2B3A2A;
+}
+
+.site-footer {
+    background-color: #4A5A4F;
+    color: #A8C3A0;
+}
+
+
+
+.site-header {
+    background-color: #4A5A4F; /* Moss Green */
+    color: #A8C3A0; /* Pale Green */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-header .logo {
+    font-size: 1.5em;
+    font-family: 'Playfair Display', serif;
+}
+
+.site-header .navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+.site-header .navigation ul li a {
+    color: #A8C3A0; /* Pale Green */
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+}
+
+.site-header .navigation ul li a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    height: calc(100vh - 60px); /* Adjust height to account for header */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.center-horizontally {
+    align-self: center; /* Centers this element horizontally */
+    color: #A8C3A0; /* Pale Green */
+    font-family: 'Playfair Display', serif;
+    font-size: 3em;
+}
+
+.center-vertically {
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #A8C3A0; /* Pale Green */
+    font-family: 'Playfair Display', serif;
+    font-size: 2em;
+}
+
+.centered-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+    background-color: #2B3A2A; /* Dark Forest Green */
+}
+
+.title {
+    color: #A8C3A0; /* Pale Green */
+    font-family: 'Playfair Display', serif; /* Using Playfair Display for a stylish look */
+    font-size: 10em;
+}
+    
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers children horizontally */
+    height: 100vh;
+    background-color: #2B3A2A; /* Dark Forest Green */
+}
+
+.center-horizontally {
+    color: #A8C3A0; /* Pale Green */
+    font-family: 'Playfair Display', serif;
+    font-size: 3em;
+    margin: 20px 0;
+}
+
+
+img {
+    max-width: 25%;
+    height: auto;
+    margin-left: 400px;
+    margin-bottom: 50px;
+}
+
+/* DESIGN, FARGER, FONT */
+
+body {
+    background-color: #whitesmoke; /* Dark Forest Green */
+    color: #A8C3A0; /* Pale Green */
+    font-family: 'Open Sans', sans-serif; /* Sans-serif for body text */
+}
+
+header {
+    background-color: #4A5A4F; /* Moss Green */
+    color: #A8C3A0; /* Pale Green */
+    font-family: 'Playfair Display', serif; /* Serif for headers */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #A8C3A0; /* Pale Green */
+    font-family: 'Playfair Display', serif; /* Serif for headings */
+}
+
+p {
+    color: #778877; /* Sage Green */
+    font-family: 'Open Sans', sans-serif; /* Sans-serif for body text */
+}
+
+a {
+    color: #556B2F; /* Olive Green */
+}
+
+button {
+    background-color: #556B2F; /* Olive Green */
+    color: #A8C3A0; /* Pale Green */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif; /* Consistent font family for buttons */
+}
+
+button:hover {
+    background-color: #778877; /* Sage Green */
+}
+
+/* MEDIA QUERY*/
+
